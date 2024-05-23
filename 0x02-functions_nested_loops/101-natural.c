@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+/**
+ * main -  Prints the sum of all the multiples of 3 or 5 up to 1024
+ * Return: Always success
+ */
+
+int main(void)
+
+{
+
+int i, z = 0;
+
+while (i < 1024)
+{
+if ((1 % 3 ==0) || (1 % 5 == 0))
+{
+z += i;
+}
+i++;
+}
+printf("%d\n", z);
+return (0);
+
+}
+
